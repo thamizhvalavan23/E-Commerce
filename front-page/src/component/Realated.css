@@ -1,0 +1,10 @@
+.old-data h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.616);
+}
+.old-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}

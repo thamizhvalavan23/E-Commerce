@@ -1,0 +1,45 @@
+.logo{
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.295);
+}
+.contact{
+    margin-top:20px;
+}
+.contact-list h1{
+    display: flex;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.685);
+    margin: 40px auto;
+    align-items: center;
+    justify-content: center;
+}
+.contact-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-img img{
+    width: 470px;
+    margin-left:80px;
+}
+.contact-img{
+    width: 350px;
+}
+.contact-name h3{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.808);
+}
+.name{
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.788);
+    font-size: 19px;
+
+}
+.contact-name h1{
+    font-size: 40px;
+    color: black;
+}
+.line{
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    width: 200px;
+}

@@ -1,0 +1,46 @@
+.tap{
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    margin-top:20px;
+}
+.search-data{
+    display: flex;
+    height:70px;
+    margin:auto;
+    width:700px;
+    align-items: center;
+    justify-content: center;
+}
+.full{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.048);
+}
+.search-list{
+    width:600px;
+    height: 40px;
+    margin:auto;
+    display:grid;
+}
+.search-list input{
+    width: 95%;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 15px;
+    padding-left: 20px;
+    background:transparent;
+}
+.search-list img{
+    width: 22px;
+    position: relative;
+    top:7px;
+    right:40px;
+    cursor: pointer;
+}
+.cancel img{
+    width:13px;
+    position: relative;
+    right: 50px;
+    margin-top:7px;
+    cursor: pointer;
+
+}

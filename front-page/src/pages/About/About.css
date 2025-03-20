@@ -1,0 +1,66 @@
+.about h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.603);
+    margin-top: 40px;
+}
+.logo{
+    width: 100%;
+    margin-top:20px;
+    border: 1px solid rgba(0, 0, 0, 0.027);
+}
+.about-tags{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin:50px auto;
+}
+.about-img img{
+    width: 450px;
+    height: max-content;
+}
+.about-tag{
+    display: grid;
+    margin-left: 70px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.678);
+    gap: 20px;
+    text-align:justify;
+}
+.about-tag h3{
+    color: black;
+}
+.about-choose h1{
+    display: flex;
+    color: rgba(0, 0, 0, 0.603);
+    margin-top: 40px;
+}
+.about-list{
+    justify-content: space-around;
+    align-items:center;
+    margin: 20px auto;
+    display: flex;
+}
+.about-list-tag{
+    width:400px;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    padding:70px;
+    height: 250px;
+}
+.about-list-tag h3{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.918);
+}
+.about-list-tag p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 40px;
+}
+.line-of{
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    width: 200px;
+}
+

@@ -1,0 +1,31 @@
+.cart-amount{
+    margin-top:50px;
+    margin-left: 570px;
+    width: 550px;
+}
+.subtotal,.shipping,.tottal{
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+}
+p{
+    color: rgba(0, 0, 0, 0.692);
+}
+.fineal{
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 35px;
+}
+.checkout button{
+    width: 300px;
+    height: 55px;
+    border:0px;
+    outline: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size:17px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px 0px 0px 260px;
+}

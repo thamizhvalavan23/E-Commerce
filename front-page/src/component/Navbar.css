@@ -1,0 +1,49 @@
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-listmenu ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.733);
+    cursor: pointer;
+    height:27px;
+}
+li:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.589);
+    color:gray;
+}
+.admin{
+    color: rgba(24, 0, 0, 0.842);
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 20px;
+    font-size: 15px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.navbar-login img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.order-logo{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    position: relative;
+    right: 5px;
+    border-radius:50%;
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+}

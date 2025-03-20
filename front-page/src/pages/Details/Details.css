@@ -1,0 +1,78 @@
+.details-list{
+    display: flex;
+    justify-content: space-between; 
+    margin: 50px auto;
+}
+.details-data img{
+    display: grid;
+    width: 120px;
+    margin-bottom:7px;
+    border-radius:7px;
+}
+.details-sec img{
+    width:400px;
+    margin: 0px 0px 0px 15px;
+    border-radius: 5px;
+}
+.details-info{
+    margin-left:50px;
+}
+.details-info img{
+    width:15px;
+    margin-top:14px;
+}
+.details-info h1{
+    color: rgba(0, 0, 0, 0.842);
+    font-size:30px;
+}
+.details-info h3{
+    font-size: 32px;
+    margin-top: 20px;
+}
+.details-info p{
+    color: rgba(0, 0, 0, 0.486);
+    text-align:start;
+    margin-top: 40px;
+}
+.select-size h1{
+    margin-top: 30px;
+    font-size:30px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.select-size button{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    margin-left:5px;
+    margin-top:15px;
+    background-color: rgba(128, 128, 128, 0.116);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    transition: 0.2s;
+}
+.select-size .good{
+    border: 2px solid rgba(0, 0, 0, 0.685)
+}
+.add-cart button{
+    width: 150px;
+    height:50px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    margin:30px auto;
+    padding: 10px;
+}
+.footer hr{
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+}
+.empty{
+    display: grid;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,41 @@
+.product-list{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin: 70px auto;
+}
+.product-title{
+    display: flex; 
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+.product-title h1{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.603);
+}
+.product-title p{
+    margin-top:3px;
+    font-size: 45px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.397);
+}
+.product-title hr{
+    margin-top:30px;
+    border: 1px solid rgba(0, 0, 0, 0.671);
+}
+.loer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    margin-top:15px;
+    color:gray;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.product-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

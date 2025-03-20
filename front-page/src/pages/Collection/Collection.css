@@ -1,0 +1,60 @@
+.filter-tag{
+    display:flex;
+    margin:40px auto;
+}
+.light{
+    width:100%;
+    border: 1px solid rgba(128, 128, 128, 0.158);
+}
+.filter{
+    margin-top: 12px;
+}
+.filter-data{
+width: 100%;
+}
+.filter-data h1{
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 20px;
+}
+.filter-list{
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    margin-top: 20px;
+    padding:15px;
+    width: 230px;
+}
+.filter-list p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.664);
+    margin: 12px auto;
+}
+.filter-list h1{
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 17px;
+}
+.page-head{
+    display:flex;
+}
+.page-list{
+    margin-left: 40px;
+}
+.page-head hr{
+    border:1px solid rgba(0, 0, 0, 0.534);
+    width: 70px;
+}
+.page-head h1{
+    display: flex;
+    color:rgba(0, 0, 0, 0.589);
+}
+.page-head b{
+    color: rgba(0, 0, 0, 0.781);
+    margin-left:10px;
+    font-size: 30px;
+}
+.page-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.page-item{
+    width: 200px;
+}

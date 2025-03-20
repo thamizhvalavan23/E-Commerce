@@ -1,0 +1,117 @@
+.footer-tag{
+    justify-content: space-between;
+    margin: 80px auto;
+    display: flex;
+}
+.footer-easy{
+    text-align: center;
+    width: 300px;
+}
+.footer-easy img{
+    width:50px;
+}
+.footer-easy h2{
+    color: rgba(0, 0, 0, 0.822);
+    margin-top:15px;
+    font-size: 17px;
+    margin-bottom:10px;
+}
+.footer-easy span{
+    color: rgba(0, 0, 0, 0.61);
+}
+.subscrip{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin:60px auto;
+}
+.subscrip-data h1{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+}
+.subscrip-loerm{
+    margin-top:15px;
+    color:gray;
+}
+.subscrip-input{
+    margin:25px auto;
+    width: 550px;
+    height: 50px;
+}
+.subscrip-input span{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.subscrip-input input{
+    width:90%;
+    height: 100%;
+    border:1px solid rgba(0, 0, 0, 0.144);
+    border-right: 0px;
+    outline: none;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.subscrip-input button{
+    border: 0px;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    padding:20px;
+    background-color: black;
+    width:170px;
+}
+.footer-details{
+    margin: 120px auto;
+    justify-content: space-between;
+    display: flex;
+    height: max-content;
+}
+.footer-data{
+    width:500px;
+    color: gray;
+}
+.footer-data img{
+    width: 130px;
+    margin-bottom: 10px;
+}
+.footer-company h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.842);
+    margin-bottom:20px;
+}
+.footer-company ul{
+    color: gray;
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-company li{
+    padding-bottom:7px;
+    cursor: pointer;
+}
+.footer-touch h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.842);
+    margin-bottom:20px;
+}
+.footer-touch p{
+    color: gray;
+    padding-bottom:7px;
+}
+.footer-down{
+    width: 100%;
+    position: relative;
+    top: -110px;
+    color:rgba(0, 0, 0, 0.842);
+    height: 100px;
+}
+.footer-down p{
+    text-align: center;
+}
+.footer-down hr{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+}
